@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    body {
+
+        background-color: antiquewhite;
+    }
+</style>
+
+<body>
+    <div>
+        <h1>My Form</h1>
+        <p>This my form</p>
+    </div>
+    <form action="" method="post">
+        <div>
+            <label for="">Full Name</label>
+            <input type="text" required placeholder="username" name="user">
+        </div>
+        <br>
+        <div>
+            <label>Email : </label>
+            <input type="email" required placeholder="write an email" name="mail">
+        </div>
+
+        <hr>
+
+        <textarea name="Message" id="Message" cols="30" rows="10"></textarea> <br>
+
+        <fieldset>
+            <legend>Select a choice:</legend>
+
+            <div>
+                <input type="radio" id="First choice" name="First choice" value="First choice" checked>
+                <label for="First choice">First choice</label>
+            </div>
+            <div>
+                <input type="radio" id="Second choice" name="Second choice" value="Second choice">
+                <label for="Second choice">Second choice</label>
+            </div>
+
+            <div>
+                <input type="radio" id="Third choice" name="Third choice" value="Third choice">
+                <label for="Third choice">Third choice</label>
+            </div>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Check all that apply:</legend>
+
+            <div>
+                <input type="checkbox" id="scales" name="scales">
+                <label for="scales">First choice</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="horns" name="horns">
+                <label for="horns">Second choice</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="horns" name="horns">
+                <label for="horns">Third choice</label>
+            </div>
+        </fieldset>
+        <br />
+
+        <label for="pet-select">Select a Choose:</label>
+
+        <select name="pets" id="pet-select">
+            <option value="">--Please choose an option--</option>
+            <option value="First Choice" selected>First Choice </option>
+            <option value="Second Choice">Second Choice</option>
+            <option value="Third Choice">Third Choice</option>
+
+        </select>
+
+        <br>
+
+
+
+        <input type="submit">
+
+    </form>
+
+</body>
+
+</html>
